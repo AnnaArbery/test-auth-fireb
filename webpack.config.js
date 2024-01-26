@@ -6,7 +6,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 
 const MODE = process.argv.includes('development') ? 'development': 'production';
-const DIST_DIR = 'build';
+const DIST_DIR = 'public';
 
 const config = {
   mode: MODE,
