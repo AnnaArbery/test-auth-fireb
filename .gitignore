@@ -1,0 +1,7 @@
+/node_modules
+*.psd
+*.doc
+*.docx
+*.zip
+*.rar
+*.env

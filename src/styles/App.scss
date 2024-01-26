@@ -1,0 +1,21 @@
+body {
+    background: #ccc;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+}
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+nav {
+  display: flex;
+  a {
+    margin: 0 10px 5px;
+    padding: 5px;
+  }
+  .nav-active {
+    background: #0ff;
+  }
+}
